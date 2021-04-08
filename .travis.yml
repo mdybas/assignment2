@@ -10,8 +10,9 @@ python:
 
 install:
     pip install codecov
+    python tests.py
 
-script: tests.py
+script: ./tests
 
 #codecov: 
   #  require_ci_to_pass: yes
