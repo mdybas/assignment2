@@ -11,8 +11,7 @@ python:
 install:
     pip install codecov
 
-script:
-    ./tests
+script: tests.py
 
 #codecov: 
   #  require_ci_to_pass: yes
