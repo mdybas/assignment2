@@ -9,7 +9,7 @@ install:
     pip install -U pytest
 
 script:
-    test.py
+    tests.py
 
 codecov: 
     require_ci_to_pass: yes
