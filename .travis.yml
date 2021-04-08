@@ -8,9 +8,8 @@ python:
 install:
     pip install codecov
     
-deploy:
-  - provider: script
-    script: tests.py
+script: 
+    - tests.py
 
 #codecov: 
   #  require_ci_to_pass: yes
