@@ -8,7 +8,7 @@ install:
     pip install codecov
 
 script:
-    - tests.py
+    ./tests
 
 #codecov: 
   #  require_ci_to_pass: yes
