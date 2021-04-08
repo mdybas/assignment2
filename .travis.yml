@@ -9,8 +9,8 @@ install:
     pip install codecov
     
 deploy:
-provider: script
-script: assignment2/tests.py
+  - provider: script
+    script: tests.py
 
 #codecov: 
   #  require_ci_to_pass: yes
