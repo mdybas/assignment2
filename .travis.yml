@@ -28,7 +28,7 @@ parsers:
          macro: no
 
 after_success: 
-   - codecov
+   - bash <(curl -s https://codecov.io/bash)
         
 comment: 
    layout: "reach,diff,flags,files,footer"
