@@ -2,18 +2,15 @@ language: python
 python:
     - 2.7
     - 3.4
-   # - 3.5
     - 3.6
-    #- 3.7
     - 3.8
-    #- 3.9
 
 install:
     pip install codecov
     
-
-script: python tests.py
-    ./tests
+deploy:
+provider: script
+script: assignment2/tests.py
 
 #codecov: 
   #  require_ci_to_pass: yes
